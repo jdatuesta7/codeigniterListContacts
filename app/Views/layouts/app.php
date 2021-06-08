@@ -151,6 +151,8 @@
 			color: #fff !important;
 		}
 
+
+
 		/* ---------------------CONTENT STYLE-------------------------- */
 
 		#content {
@@ -161,6 +163,16 @@
 		}
 
 		/* ----------------------MEDIAQUERIES-------------------------- */
+		.footer {
+			margin-left: -20px;
+			position: fixed;
+			left: 1;
+			bottom: 0;
+			width: 100%;
+			background-color: #6d7fcc;
+			color: white;
+			text-align: center;
+		}
 
 		@media (max-width: 768px) {
 			#sidebar {
@@ -185,7 +197,7 @@
 			<?= $this->include("partials/sideBar") ?>
 		</nav>
 
-		
+
 		<div id="content">
 			<!-- Navbar -->
 			<?= $this->include('partials\navBar') ?>
@@ -195,7 +207,7 @@
 			<?= $this->include('partials\footer') ?>
 		</div>
 
-		
+
 
 	</div>
 
