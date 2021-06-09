@@ -60,8 +60,6 @@ class ContactController extends Controller
     public function update(){
         $UpdateContact = new ContactModel();
 
-        
-
         $contact = [
             'fullname' => $this->request->getPost('nombre'),
             'phone' => $this->request->getPost('telefono'),
